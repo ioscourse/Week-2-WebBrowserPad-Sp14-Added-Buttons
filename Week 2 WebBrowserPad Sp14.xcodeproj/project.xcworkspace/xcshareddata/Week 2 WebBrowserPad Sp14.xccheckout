@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4D11829A-77D3-42AA-ACE1-3498C6D141C8</string>
+	<string>A8999E84-9558-4C26-A306-18A054AD70CC</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Week 2 WebBrowserPad Sp14</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3B777F00-EA77-4B81-A544-0BBF31387901</key>
-		<string>https://github.com/ioscourse/Week-2-WebBrowserPad-Sp14.git</string>
+		<key>E355B474-5C04-4260-BA43-A71CF0537035</key>
+		<string>https://github.com/ioscourse/Week-2-WebBrowserPad-Sp14-Added-Buttons.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Week 2 WebBrowserPad Sp14.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3B777F00-EA77-4B81-A544-0BBF31387901</key>
+		<key>E355B474-5C04-4260-BA43-A71CF0537035</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ioscourse/Week-2-WebBrowserPad-Sp14.git</string>
+	<string>https://github.com/ioscourse/Week-2-WebBrowserPad-Sp14-Added-Buttons.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3B777F00-EA77-4B81-A544-0BBF31387901</string>
+	<string>E355B474-5C04-4260-BA43-A71CF0537035</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3B777F00-EA77-4B81-A544-0BBF31387901</string>
+			<string>E355B474-5C04-4260-BA43-A71CF0537035</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Week 2 WebBrowserPad Sp14</string>
+			<string>Week 2 WebBrowserPad Sp14 Added Buttons</string>
 		</dict>
 	</array>
 </dict>
