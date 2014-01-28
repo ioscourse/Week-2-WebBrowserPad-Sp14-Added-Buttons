@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121E553C1889EDE70056EB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E553B1889EDE70056EB97 /* Foundation.framework */; };
+		121E553E1889EDE70056EB97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E553D1889EDE70056EB97 /* CoreGraphics.framework */; };
+		121E55401889EDE70056EB97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E553F1889EDE70056EB97 /* UIKit.framework */; };
+		121E55461889EDE70056EB97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 121E55441889EDE70056EB97 /* InfoPlist.strings */; };
+		121E55481889EDE70056EB97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 121E55471889EDE70056EB97 /* main.m */; };
+		121E554C1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 121E554B1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.m */; };
+		121E554F1889EDE70056EB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121E554D1889EDE70056EB97 /* Main.storyboard */; };
+		121E55521889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121E55511889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.m */; };
+		121E55541889EDE70056EB97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121E55531889EDE70056EB97 /* Images.xcassets */; };
+		121E555B1889EDE70056EB97 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E555A1889EDE70056EB97 /* XCTest.framework */; };
+		121E555C1889EDE70056EB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E553B1889EDE70056EB97 /* Foundation.framework */; };
+		121E555D1889EDE70056EB97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E553F1889EDE70056EB97 /* UIKit.framework */; };
+		121E55651889EDE70056EB97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 121E55631889EDE70056EB97 /* InfoPlist.strings */; };
+		121E55671889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 121E55661889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		121E555E1889EDE70056EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 121E55301889EDE70056EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121E55371889EDE70056EB97;
+			remoteInfo = "Week 2 WebBrowserPad Sp14";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121E55381889EDE70056EB97 /* Week 2 WebBrowserPad Sp14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 2 WebBrowserPad Sp14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121E553B1889EDE70056EB97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		121E553D1889EDE70056EB97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		121E553F1889EDE70056EB97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		121E55431889EDE70056EB97 /* Week 2 WebBrowserPad Sp14-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week 2 WebBrowserPad Sp14-Info.plist"; sourceTree = "<group>"; };
+		121E55451889EDE70056EB97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		121E55471889EDE70056EB97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		121E55491889EDE70056EB97 /* Week 2 WebBrowserPad Sp14-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Week 2 WebBrowserPad Sp14-Prefix.pch"; sourceTree = "<group>"; };
+		121E554A1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Week_2_WebBrowserPad_Sp14AppDelegate.h; sourceTree = "<group>"; };
+		121E554B1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_2_WebBrowserPad_Sp14AppDelegate.m; sourceTree = "<group>"; };
+		121E554E1889EDE70056EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		121E55501889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Week_2_WebBrowserPad_Sp14ViewController.h; sourceTree = "<group>"; };
+		121E55511889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_2_WebBrowserPad_Sp14ViewController.m; sourceTree = "<group>"; };
+		121E55531889EDE70056EB97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		121E55591889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 2 WebBrowserPad Sp14Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121E555A1889EDE70056EB97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		121E55621889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week 2 WebBrowserPad Sp14Tests-Info.plist"; sourceTree = "<group>"; };
+		121E55641889EDE70056EB97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		121E55661889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week_2_WebBrowserPad_Sp14Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121E55351889EDE70056EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E553E1889EDE70056EB97 /* CoreGraphics.framework in Frameworks */,
+				121E55401889EDE70056EB97 /* UIKit.framework in Frameworks */,
+				121E553C1889EDE70056EB97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E55561889EDE70056EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E555B1889EDE70056EB97 /* XCTest.framework in Frameworks */,
+				121E555D1889EDE70056EB97 /* UIKit.framework in Frameworks */,
+				121E555C1889EDE70056EB97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121E552F1889EDE70056EB97 = {
+			isa = PBXGroup;
+			children = (
+				121E55411889EDE70056EB97 /* Week 2 WebBrowserPad Sp14 */,
+				121E55601889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests */,
+				121E553A1889EDE70056EB97 /* Frameworks */,
+				121E55391889EDE70056EB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		121E55391889EDE70056EB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				121E55381889EDE70056EB97 /* Week 2 WebBrowserPad Sp14.app */,
+				121E55591889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		121E553A1889EDE70056EB97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				121E553B1889EDE70056EB97 /* Foundation.framework */,
+				121E553D1889EDE70056EB97 /* CoreGraphics.framework */,
+				121E553F1889EDE70056EB97 /* UIKit.framework */,
+				121E555A1889EDE70056EB97 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		121E55411889EDE70056EB97 /* Week 2 WebBrowserPad Sp14 */ = {
+			isa = PBXGroup;
+			children = (
+				121E554A1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.h */,
+				121E554B1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.m */,
+				121E554D1889EDE70056EB97 /* Main.storyboard */,
+				121E55501889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.h */,
+				121E55511889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.m */,
+				121E55531889EDE70056EB97 /* Images.xcassets */,
+				121E55421889EDE70056EB97 /* Supporting Files */,
+			);
+			path = "Week 2 WebBrowserPad Sp14";
+			sourceTree = "<group>";
+		};
+		121E55421889EDE70056EB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				121E55431889EDE70056EB97 /* Week 2 WebBrowserPad Sp14-Info.plist */,
+				121E55441889EDE70056EB97 /* InfoPlist.strings */,
+				121E55471889EDE70056EB97 /* main.m */,
+				121E55491889EDE70056EB97 /* Week 2 WebBrowserPad Sp14-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		121E55601889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests */ = {
+			isa = PBXGroup;
+			children = (
+				121E55661889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14Tests.m */,
+				121E55611889EDE70056EB97 /* Supporting Files */,
+			);
+			path = "Week 2 WebBrowserPad Sp14Tests";
+			sourceTree = "<group>";
+		};
+		121E55611889EDE70056EB97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				121E55621889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests-Info.plist */,
+				121E55631889EDE70056EB97 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		121E55371889EDE70056EB97 /* Week 2 WebBrowserPad Sp14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121E556A1889EDE70056EB97 /* Build configuration list for PBXNativeTarget "Week 2 WebBrowserPad Sp14" */;
+			buildPhases = (
+				121E55341889EDE70056EB97 /* Sources */,
+				121E55351889EDE70056EB97 /* Frameworks */,
+				121E55361889EDE70056EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 2 WebBrowserPad Sp14";
+			productName = "Week 2 WebBrowserPad Sp14";
+			productReference = 121E55381889EDE70056EB97 /* Week 2 WebBrowserPad Sp14.app */;
+			productType = "com.apple.product-type.application";
+		};
+		121E55581889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121E556D1889EDE70056EB97 /* Build configuration list for PBXNativeTarget "Week 2 WebBrowserPad Sp14Tests" */;
+			buildPhases = (
+				121E55551889EDE70056EB97 /* Sources */,
+				121E55561889EDE70056EB97 /* Frameworks */,
+				121E55571889EDE70056EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121E555F1889EDE70056EB97 /* PBXTargetDependency */,
+			);
+			name = "Week 2 WebBrowserPad Sp14Tests";
+			productName = "Week 2 WebBrowserPad Sp14Tests";
+			productReference = 121E55591889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		121E55301889EDE70056EB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Week 2 WebBrowserPad Sp14";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chuck Konkol";
+				TargetAttributes = {
+					121E55581889EDE70056EB97 = {
+						TestTargetID = 121E55371889EDE70056EB97;
+					};
+				};
+			};
+			buildConfigurationList = 121E55331889EDE70056EB97 /* Build configuration list for PBXProject "Week 2 WebBrowserPad Sp14" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 121E552F1889EDE70056EB97;
+			productRefGroup = 121E55391889EDE70056EB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				121E55371889EDE70056EB97 /* Week 2 WebBrowserPad Sp14 */,
+				121E55581889EDE70056EB97 /* Week 2 WebBrowserPad Sp14Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		121E55361889EDE70056EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E55541889EDE70056EB97 /* Images.xcassets in Resources */,
+				121E55461889EDE70056EB97 /* InfoPlist.strings in Resources */,
+				121E554F1889EDE70056EB97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E55571889EDE70056EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E55651889EDE70056EB97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121E55341889EDE70056EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E55481889EDE70056EB97 /* main.m in Sources */,
+				121E554C1889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14AppDelegate.m in Sources */,
+				121E55521889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121E55551889EDE70056EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121E55671889EDE70056EB97 /* Week_2_WebBrowserPad_Sp14Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121E555F1889EDE70056EB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121E55371889EDE70056EB97 /* Week 2 WebBrowserPad Sp14 */;
+			targetProxy = 121E555E1889EDE70056EB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		121E55441889EDE70056EB97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121E55451889EDE70056EB97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		121E554D1889EDE70056EB97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121E554E1889EDE70056EB97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		121E55631889EDE70056EB97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121E55641889EDE70056EB97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		121E55681889EDE70056EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		121E55691889EDE70056EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		121E556B1889EDE70056EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Week 2 WebBrowserPad Sp14/Week 2 WebBrowserPad Sp14-Prefix.pch";
+				INFOPLIST_FILE = "Week 2 WebBrowserPad Sp14/Week 2 WebBrowserPad Sp14-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		121E556C1889EDE70056EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Week 2 WebBrowserPad Sp14/Week 2 WebBrowserPad Sp14-Prefix.pch";
+				INFOPLIST_FILE = "Week 2 WebBrowserPad Sp14/Week 2 WebBrowserPad Sp14-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		121E556E1889EDE70056EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Week 2 WebBrowserPad Sp14.app/Week 2 WebBrowserPad Sp14";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Week 2 WebBrowserPad Sp14/Week 2 WebBrowserPad Sp14-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Week 2 WebBrowserPad Sp14Tests/Week 2 WebBrowserPad Sp14Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		121E556F1889EDE70056EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Week 2 WebBrowserPad Sp14.app/Week 2 WebBrowserPad Sp14";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Week 2 WebBrowserPad Sp14/Week 2 WebBrowserPad Sp14-Prefix.pch";
+				INFOPLIST_FILE = "Week 2 WebBrowserPad Sp14Tests/Week 2 WebBrowserPad Sp14Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121E55331889EDE70056EB97 /* Build configuration list for PBXProject "Week 2 WebBrowserPad Sp14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E55681889EDE70056EB97 /* Debug */,
+				121E55691889EDE70056EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121E556A1889EDE70056EB97 /* Build configuration list for PBXNativeTarget "Week 2 WebBrowserPad Sp14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E556B1889EDE70056EB97 /* Debug */,
+				121E556C1889EDE70056EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		121E556D1889EDE70056EB97 /* Build configuration list for PBXNativeTarget "Week 2 WebBrowserPad Sp14Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121E556E1889EDE70056EB97 /* Debug */,
+				121E556F1889EDE70056EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 121E55301889EDE70056EB97 /* Project object */;
+}
