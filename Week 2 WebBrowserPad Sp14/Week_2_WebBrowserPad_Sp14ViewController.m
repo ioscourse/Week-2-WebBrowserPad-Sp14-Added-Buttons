@@ -71,6 +71,7 @@
     } else {
         [self.btnBack setEnabled:NO];
     }
+    self.txtURL.text = self.webview.request.URL.absoluteString;
 }
 
 - (void)didReceiveMemoryWarning
